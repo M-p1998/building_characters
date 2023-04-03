@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Consuming API's</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+    <main>
+        <div >
+            <h1> From Django API</h1>
+            <button onCLick="djangoTunes()"> Load Tunes</button>
+            <span id="bugs"></span>
+        </div>
+        <div >
+            <h1>From Squish API</h1>
+            <button onClick="squishies()">Load Squishies</button>
+            <!-- <button onCLick="squishies()">Load Squishies</button> -->
+            <span id="squish"></span>
+        </div>
+        <div >
+            <h1>From Car API</h1>
+            <button onClick="cars()">Load Cars</button>
+            <!-- <button onCLick="squishies()">Load Squishies</button> -->
+            <span id="car" ></span>
+        </div>
+    </main> 
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
