@@ -66,6 +66,13 @@ public class MainControllers {
 	
 	}
 	
+	
+	@DeleteMapping(path= "/cars/delete/{id}" , produces="application/json")
+    public void deleteCar(@PathVariable("id") Long id) {
+		carServ.deleteCar(id);
+    }
+	
+	
 	@RequestMapping(path = "/bulding/characters", produces="application/json", method = RequestMethod.POST)
 	public DisneyCharacter addCharacters(@RequestBody DisneyCharacter disneyCharacters) {
 		return disneyServ.create(disneyCharacters);

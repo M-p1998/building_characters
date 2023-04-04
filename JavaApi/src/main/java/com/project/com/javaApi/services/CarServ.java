@@ -22,5 +22,9 @@ public class CarServ {
 	public Car create(Car newCar) {
 		return carRepo.save(newCar);
 	}
+	
+	public void deleteCar(Long id) {
+		this.carRepo.deleteById(id);
+	}
 
 }
