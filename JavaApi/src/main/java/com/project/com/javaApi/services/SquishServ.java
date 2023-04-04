@@ -23,5 +23,10 @@ public class SquishServ {
 	public Squish create(Squish newSquish) {
 		return squishRepo.save(newSquish);
 	}
+	
+	public void deleteSquish(Long id) {
+		this.squishRepo.deleteById(id);
+	}
+	
 
 }

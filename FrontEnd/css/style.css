@@ -1,0 +1,71 @@
+
+body {
+    background-color: #FFD1DC;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #222;
+}
+
+header {
+    background-color: #FFA07A;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #222;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #222;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+div {
+    background-color: #FFF8DC;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #FFA07A;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 10px;
+   
+}
+
+span {
+    font-size: 1.2rem;
+    color: #222;
+    
+}
+
+.character-img {
+    display: inline-block; /* Set display to inline-block so the divs appear next to each other */
+    margin-right: 10px; /* Add a margin between each div */
+  }
+  
+  .character-img img {
+    width: 200px; /* Set the width of the images */
+    height: 350px; /* Set the height of the images */
+    object-fit: cover; /* Resize the images to fit the container */
+  }
+  
+  
+ 
+  
+

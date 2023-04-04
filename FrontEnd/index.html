@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" /> 
+    <title>Building Characters</title>
 </head>
 <body>
     
@@ -16,22 +17,30 @@
     </header>
     <main>
         <div >
-            <h1> From Django API</h1>
-            <button onCLick="djangoTunes()"> Load Tunes</button>
+            <h1>From Characters API</h1>
+            
+            <div>
+                <button onCLick="characterTunes()"> Load Characters</button>
+            </div>
             <span id="bugs"></span>
         </div>
         <div >
-            <h1>From Squish API</h1>
-            <button onClick="squishies()">Load Squishies</button>
+            <h1>From Octocats API</h1>
+            <div>
+                <button onClick="squishies()">Load Squishies</button>
+            </div>
             <!-- <button onCLick="squishies()">Load Squishies</button> -->
             <span id="squish"></span>
         </div>
         <div >
-            <h1>From Car API</h1>
-            <button onClick="cars()">Load Cars</button>
+            <h1>From Cars API</h1>
+            <div>
+                <button onClick="cars()">Load Cars</button>
+            </div>
             <!-- <button onCLick="squishies()">Load Squishies</button> -->
             <span id="car" ></span>
         </div>
+
     </main> 
     <script src="./js/scripts.js"></script>
 </body>
