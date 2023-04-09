@@ -116,26 +116,6 @@ async function cars(){
     // console.log("the squish response", response)
     var data = await response.json()
     console.log("cars: ", data[0].name)
-    
-    // for(var i=0; i<data.length;i++){
-    //     console.log("just a name", data[i].name)
-    //     var node =document.createElement('div')
-    //     var h2= document.createElement('h2')
-    //     var h3= document.createElement('h3')
-    //     var img = document.createElement('img')
-    //     var h2label = document.createTextNode(" ")
-    //     var h2name = document.createTextNode(data[i].name)
-    //     var h3label = document.createTextNode("Year: ")
-    //     var h3name = document.createTextNode(data[i].year)
-    //     img.src = data[i].img
-    //     img.alt = data[i].name
-    //     h2.appendChild(h2label)
-    //     h2.appendChild(h2name)
-    //     h3.appendChild(h3name)
-    //     node.appendChild(img)
-    //     node.appendChild(h2)
-    //     document.getElementById('car').appendChild(node)
-    // }
 
     for(var i=0; i<data.length;i++){
         console.log("just a name", data[i].name)

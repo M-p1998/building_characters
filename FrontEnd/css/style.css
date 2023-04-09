@@ -55,14 +55,14 @@ span {
 }
 
 .character-img {
-    display: inline-block; /* Set display to inline-block so the divs appear next to each other */
-    margin-right: 10px; /* Add a margin between each div */
+    display: inline-block; 
+    margin-right: 10px;
   }
   
   .character-img img {
-    width: 200px; /* Set the width of the images */
-    height: 350px; /* Set the height of the images */
-    object-fit: cover; /* Resize the images to fit the container */
+    width: 200px;
+    height: 350px; 
+    object-fit: cover; 
   }
 
 
