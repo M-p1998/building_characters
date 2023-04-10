@@ -1,9 +1,8 @@
 
-// var djangoAPI = "https://buildingCharacters.com/characters/"
-// var djangoAPI = "https://dojo.navyladyveteran.com/characters/"
+
 var characterAPI = "http://localhost:8080/api/bulding/characters"
 var squishAPI  = "http://localhost:8080/api/"
-// var squishAPI  = "https://octodex.github.com/"
+
 var carAPI  = "http://localhost:8080/api/cars"
 
 async function characterTunes(){
